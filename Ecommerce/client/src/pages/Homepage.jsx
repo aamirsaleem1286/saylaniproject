@@ -14,7 +14,7 @@ const Homepage = () => {
 
   useEffect(() => {
     const getUser = () => {
-      fetch("http://localhost:4000/auth/login/success", {
+      fetch("https://ancient-ravine-38611.herokuapp.com/auth/login/success", {
         method: "GET",
         credentials: "include",
         headers: {

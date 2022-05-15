@@ -183,8 +183,8 @@ console.log(passwordAgain.current.value)
 
     };
     try {
-      await Axios.post("http://localhost:4000/form", user);
-      // history.push("http://localhost:4000/login");
+      await Axios.post("https://ancient-ravine-38611.herokuapp.com/form", user);
+      // history.push("https://ancient-ravine-38611.herokuapp.com/login");
       window.location.href="/"
     } catch (err) {
       console.log(err);

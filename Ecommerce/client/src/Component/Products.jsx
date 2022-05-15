@@ -19,7 +19,7 @@ const [filteredProducts, setFilteredProducts] = useState([]);
 useEffect(() => {
     const getProducts=async()=>{
 try{
- const res=await axios.get(cat?`http://localhost:4000/api/product?category=${cat}`:"http://localhost:4000/api/product")
+ const res=await axios.get(cat?`https://ancient-ravine-38611.herokuapp.com/api/product?category=${cat}`:"https://ancient-ravine-38611.herokuapp.com/api/product")
 setProducts(res.data)
 }catch(e){
     console.log("err"+e)

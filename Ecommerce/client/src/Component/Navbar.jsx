@@ -122,7 +122,7 @@
 
 
 //   const logout = () => {
-//     window.open("http://localhost:4000/auth/logout", "_self");
+//     window.open("https://ancient-ravine-38611.herokuapp.com/auth/logout", "_self");
 //   };
 //   return (
 //     // <div className="navbar">
@@ -233,7 +233,7 @@
 // const clientId = "218633791031-ubq28bqe25jhvsrqjvodmscvrrktodd7.apps.googleusercontent.com";
 // const Navbar = ({ user }) => {
 //   const logout = () => {
-//     window.open("http://localhost:4000/auth/logout", "_self");
+//     window.open("https://ancient-ravine-38611.herokuapp.com/auth/logout", "_self");
 //   };
 
 //   const [showloginButton, setShowloginButton] = useState(true);
@@ -290,7 +290,7 @@
 // import '../App.css';
 // const Navbar = ({ user }) => {
 //   const logout = () => {
-//     window.open("http://localhost:4000/auth/logout", "_self");
+//     window.open("https://ancient-ravine-38611.herokuapp.com/auth/logout", "_self");
 //   };
 //    const quantity=useSelector(state=>state.cart.quantity)
 //     console.log( quantity)
@@ -447,7 +447,7 @@ const Navbar = ({ user }) => {
   const handleClick = () => setClick(!click);
 
     const logout = () => {
-    window.open("http://localhost:4000/auth/logout", "_self");
+    window.open("https://ancient-ravine-38611.herokuapp.com/auth/logout", "_self");
   };
 //    const quantity=useSelector(state=>state.cart.quantity)
 //     console.log( quantity)

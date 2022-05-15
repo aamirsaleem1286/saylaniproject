@@ -28,7 +28,7 @@
     "yup": "^0.32.11"
   },
   
-  "proxy":"http://localhost:4000",
+  "proxy":"https://ancient-ravine-38611.herokuapp.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

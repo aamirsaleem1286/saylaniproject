@@ -40,7 +40,7 @@ if(!err){
 
     // app.use(
     //     cors({
-    //       origin: "http://localhost:3000", // <-- location of the react app were connecting to
+    //       origin: "https://ancient-ravine-38611.herokuapp.com", // <-- location of the react app were connecting to
     //       credentials: true,
     //     })
     //   );
@@ -49,7 +49,7 @@ if(!err){
 
     // app.options("*", cors({ origin: 'http://localhost:4000', optionsSuccessStatus: 200 }));
     
-    // app.use(cors({ origin: "http://localhost:4000", optionsSuccessStatus: 200 }));
+    // app.use(cors({ origin: "https://ancient-ravine-38611.herokuapp.com", optionsSuccessStatus: 200 }));
 
 
 
@@ -82,7 +82,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
     // app.use(bodyParser.json());
     app.use(cors(
         {
-            origin:"http://localhost:3000",
+            origin:"https://ancient-ravine-38611.herokuapp.com",
             method:"GET,POST,PUT,DELETE",
             credentials:true,
         })

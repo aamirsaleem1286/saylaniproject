@@ -80,10 +80,10 @@
 //   const handleLogin=(e)=>{
 //     e.preventDefault()
 //     if(    login(dispatch,{username,password})){
-//         window.location.href="http://localhost:3000";
+//         window.location.href="https://ancient-ravine-38611.herokuapp.com";
 //     }
 //     else{
-//       window.location.href="http://localhost:3000/login";
+//       window.location.href="https://ancient-ravine-38611.herokuapp.com/login";
 //     } 
 //       }
 
@@ -177,7 +177,7 @@ const SignupSchema = Yup.object().shape({
         password: loginPassword,
       },
       withCredentials: true,
-      url: "http://localhost:4000/login",
+      url: "https://ancient-ravine-38611.herokuapp.com/login",
     }).then((res) =>
     // alert(res.data.value) 
     // console.log(res)
@@ -214,18 +214,18 @@ const SignupSchema = Yup.object().shape({
 
 
   const google = () => {
-    window.open("http://localhost:4000/auth/google", "_self");
+    window.open("https://ancient-ravine-38611.herokuapp.com/auth/google", "_self");
   };
 
   const github = () => {
-    window.open("http://localhost:4000/auth/github", "_self");
+    window.open("https://ancient-ravine-38611.herokuapp.com/auth/github", "_self");
   };
 
   const facebook = () => {
-    window.open("http://localhost:4000/auth/facebook", "_self");
+    window.open("https://ancient-ravine-38611.herokuapp.com/auth/facebook", "_self");
   };
   const twitter = () => {
-    window.open("http://localhost:4000/auth/twitter", "_self");
+    window.open("https://ancient-ravine-38611.herokuapp.com/auth/twitter", "_self");
   };
 
 

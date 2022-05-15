@@ -149,7 +149,7 @@ function  Register() {
     //       address:registeraddress,
     //     },
     //     withCredentials: true,
-    //     url: "http://localhost:4000/register",
+    //     url: "https://ancient-ravine-38611.herokuapp.com/register",
     //   }).then((res) => {
     //     console.log(res)
     // })
@@ -177,7 +177,7 @@ function  Register() {
   //       address:registeraddress,
   //     },
   //     withCredentials: true,
-  //     url: "http://localhost:4000/register",
+  //     url: "https://ancient-ravine-38611.herokuapp.com/register",
   //   }) 
   //   // history.push("/login")
   //   .then((res) => {
@@ -203,14 +203,14 @@ function  Register() {
   //       password: loginPassword,
   //     },
   //     withCredentials: true,
-  //     url: "http://localhost:4000/login",
+  //     url: "https://ancient-ravine-38611.herokuapp.com/login",
   //   }).then((res) => console.log(res));
   // };
   // const getUser = () => {
   //   Axios({
   //     method: "GET",
   //     withCredentials: true,
-  //     url: "http://localhost:4000/user",
+  //     url: "https://ancient-ravine-38611.herokuapp.com/user",
   //   }).then((res) => {
   //     setData(res.data);
   //     console.log(res.data);
@@ -244,8 +244,8 @@ function  Register() {
 
       };
       try {
-        await Axios.post("http://localhost:4000/register", user);
-        // history.push("http://localhost:4000/login");
+        await Axios.post("https://ancient-ravine-38611.herokuapp.com/register", user);
+        // history.push("https://ancient-ravine-38611.herokuapp.com/login");
         window.location.href="/login"
       } catch (err) {
         console.log(err);
@@ -545,7 +545,7 @@ export default Register;
 //         address:registeraddress,
 //       },
 //       withCredentials: true,
-//       url: "http://localhost:4000/register",
+//       url: "https://ancient-ravine-38611.herokuapp.com/register",
 //     }).then((res) => console.log(res));
 //   };
 //   const login = () => {
@@ -556,14 +556,14 @@ export default Register;
 //         password: loginPassword,
 //       },
 //       withCredentials: true,
-//       url: "http://localhost:4000/login",
+//       url: "https://ancient-ravine-38611.herokuapp.com/login",
 //     }).then((res) => console.log(res));
 //   };
 //   const getUser = () => {
 //     Axios({
 //       method: "GET",
 //       withCredentials: true,
-//       url: "http://localhost:4000/user",
+//       url: "https://ancient-ravine-38611.herokuapp.com/user",
 //     }).then((res) => {
 //       setData(res.data);
 //       console.log(res.data);
